@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Landing Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #171817;
+            color: #fff;
+            padding: 10px 0;
+            text-align: right;
+        }
+        .logo{
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+            color:  rgb(246, 242, 242);
+            font-size: larger;
+            font-weight: bolder ;
+            margin-bottom: 10px;
+        }
+        
+        
+        nav ul {
+            list-style: none;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        .hero {
+            background: #ffffff;
+            background-size: cover;
+            text-align: center;
+            padding: 50px 0;
+        }
+        
+        .features {
+            
+            
+            background: #b9b9b9;
+            text-align: center;
+            padding: 20px 0;
+        }
+        
+        .feature-item {
+            border: 3px inset rgb(248, 0, 128);
+            background: #ffffff;
+            color: rgb(0, 0, 0);
+            display: inline-block;
+            height: 350px;
+            width: 250px;
+            margin: 20px 50px;
+            
+        }
+       
+        .cta {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 50px 0;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: rgb(19, 211, 245);
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 4px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="logo">CODING BOY</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#cta">Get Started</a></li>
+                <li><a href="#cta">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to my Landing Page</h1>
+        <p>Discover amazing features and join our community today.</p>
+    </section>
+    
+    <section id="features" class="features">
+        <h2>Features</h2>
+        <p>Here you can check these feature webpages</p>
+        <div class="feature-item">
+            <h3>Feature 1 :HTML</h3>
+            <p> <p>HTML is a markup language used by the browser to manipulate text, images, and other content, in order to display it in the required format. HTML was created by Tim Berners-Lee in 1991. The first-ever version of HTML was HTML 1.0, but the first standard version was HTML 2.0,</p>  
+            <div class="cta-button"><a href="https://www.w3schools.com/html/" target="_blank">read more</a></div>
+        </div>
+        <div class="feature-item">
+            <h3>Feature 2:</h3>
+            <p>Cascading Style Sheets (CSS) is a stylesheet language that instructs the browser how we want our HTML to appear; it is not a programming language. More than 95% of all websites on the internet today employ CSS to establish their design, making it highly crucial.</p>
+            <div class="cta-button"><a href="https://www.geeksforgeeks.org/css/" target="_blank">read more</a></div>
+        </div>
+        <div class="feature-item">
+            <h3>Feature 3</h3>
+            <P>JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.</P>
+            <div class="cta-button"><a href="https://www.javatpoint.com/javascript-tutorial" target="_blank">read more</a></div>
+  
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <h2>Get Started</h2>
+        <p>Join my community today and experience the best in class features.</p>
+        <a href="#" class="cta-button">Sign Up</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Designed by Panakj. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
